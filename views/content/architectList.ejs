@@ -1,0 +1,16 @@
+<section class="archList">
+    <h1>Featured Architects</h1>
+    <hr>
+    <p>This is but a short list of some phenomenal architects
+    who crushed several barriers along their careers.  They have inspired us,
+    challenged the status quo, and braved to dare when many others would not even dream of it</p>
+    <% builders.forEach(function(item) { %>
+    <img src="<%= item.face%>" alt="<% item.shortName %>">
+
+    <h3 class="title"><%= item.name %></h3>
+    <span id="bioLink"><a href="/architects/<%= item.shortName%>">View Solo</a> </span>
+    <p><strong>Brief Bio: </strong> <%= item.bio %> </p>
+    <p><strong> Style: </strong> <%= item.description%></p>
+    <hr style="clear: both;">
+    <% });%>
+</section>

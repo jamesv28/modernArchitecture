@@ -1,0 +1,11 @@
+<article class="featuredDesign">
+    <h3>Designs on Display</h3>
+    <hr>
+    <div class="pixgrid">
+        <% for(var i = 0; i < buildColl.length; i++) { %>
+        <a href="/images/buildings/<%- buildColl[i] %>" data-lightbox="buildings">
+        <img src="/images/buildings/<%= buildColl[i] %>">
+            </a>
+        <% } %>
+    </div>
+</article>

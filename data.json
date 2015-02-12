@@ -1,0 +1,68 @@
+{
+  "architects": [
+    {
+      "name": "Renzo Piano",
+      "shortName": "Piano",
+      "bio": "An Italian Pritzker Prize-winning architect, Piano has been considered by many to be one of the most influential people in the arts and entertainment category. ",
+      "description": "His style has been characterized by many as high-tech design",
+      "buildings": ["aquariumGenoaPiano.jpg", "CenSciTechPiano.jpg", "museMeuseumPiano.jpg", "zentrumPaulKleePiano.jpg"],
+      "face": "/images/architects/renzoPiano.jpg"
+    },
+    {
+      "name": "Michael Graves",
+      "shortName": "Graves",
+      "bio": "Graves is an American architect.  Identified as one of the New York five.  Graves is most noted for his commissions of public works. A representative of new urbanism and neo classical architecture",
+      "description": "Considered a postmodern architec.",
+      "buildings": ["disneyStudioBurbankGraves.jpg", "humanaBuildingGraves.jpg", "lowmanMuseumGraves.jpg", "stColettaGraves.jpg"],
+      "face": "/images/architects/michaelGraves.jpg"
+    },
+    {
+      "name": "Frank Lloyd Wright",
+      "shortName": "Wright",
+      "bio": "Wright was an American architect, interior designer, writer, and educator, who designed more than 1,000 structures and completed 532",
+      "description": "Wright's style, described by himself, was to build structures that were in harmony with humanity and environment.",
+      "buildings": ["childOfTheSunWright.jpg", "fallingWaterWright.jpg", "marinCivicCenterWright.jpg", "pilgrimCongregationHouseWright.jpg"],
+      "face": "/images/architects/frankLoydWright.jpg"
+    },
+    {
+      "name": "Rem Koolhaus",
+      "shortName": "Koolhaus",
+      "bio": "Koolhaus  is a Dutch architect, architectural theorist, and urbanist.  He is also a professor in practice at Harvard where he teaches architecture and urban design. ",
+      "description": "provactive and controversial architecture.  Contemporary urban designer.",
+      "buildings": ["cctvHeadquartersKoolhaus.jpg", "mcCormickTribuneCampusCenterKoolhaus.jpg", "nederlandsDanceTheaterKoolhaus.jpg", "seattleCentralLibraryKoolhaus.jpg"],
+      "face": "/images/architects/ramKoolhaus.jpg"
+    },
+    {
+      "name": "Phillip Johnson",
+      "shortName": "Johnson",
+      "bio": "A very influential American Architect.  he is most known for his postmodern work since the 1980's.  Some of his notable works include the Glass House and One Detroit Center.  ",
+      "description": "Postmodern with an emphasis on texture and color on the external sides of the buildings.",
+      "buildings": ["crystalCathedralJohnson.jpg", "glassHouseJohnson.jpeg", "pennzoliPlaceJohnson.gif", "puertaDeEuropaJohnson.jpg"],
+      "face": "/images/architects/phillipJohnson.jpg"
+    }
+  ],
+  "social" : [{
+    "shortname" : "twitter",
+    "img" : "/images/socialmedia/twitter.png",
+    "url" : "http://www.twitter.com/rouxmeet"
+  },{
+    "shortname" : "facebook",
+    "img" : "/images/socialmedia/facebook.png",
+    "url" : "http://www.facebook.com/rouxmeet"
+  },{
+    "shortname" : "youTube",
+    "img" : "/images/socialmedia/youtube.png",
+    "url" : "http://www.youtube.com"
+  }],
+
+  "meeting": {
+    "title": "Culture Class: Art, Creativity, Urbanism, Part I",
+    "date": "Wednesday, February 3",
+    "time": "6:30-9",
+    "img": "/images/misc/urbanism1.jpg",
+    "where": {
+      "name": "Renaissance Hotel",
+      "address": "123 Elm Street"
+    }
+  }
+}

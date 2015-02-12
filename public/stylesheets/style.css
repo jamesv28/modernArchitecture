@@ -1,0 +1,199 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5,
+h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub,
+sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output,
+ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+body{
+    background: #EBEBEB;
+}
+nav, section, header, footer, article {
+    display: block;
+}
+.hero{
+    position: relative;
+    background: url('../images/misc/buildingPlans.jpg');
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+    height: 450px;
+}
+
+header .navigation ul.nav li i {
+    padding-right: .5em;
+    color: bisque;
+}
+
+header .navigation ul.nav li a {
+    text-decoration: none;
+    color: bisque;
+    font-size: 20px;
+}
+
+header .navigation ul.nav li a:hover{
+    background: darkred;
+    color: white;
+}
+
+header .navigation ul.nav li {
+    display: inline;
+    padding: 10px 10px;
+}
+.navigation {
+    background: black;
+    height: 30px;
+}
+
+.nav {
+    height: 23px;
+}
+section.layout #title{
+    background: black;
+    color: bisque;
+    font-size: 48px;
+    width: 20%;
+    text-align: center;
+}
+
+
+footer{
+    background: black;
+    color: bisque;
+    margin-top: 20px;
+    padding-top: 20px;
+    clear: both;
+    margin-bottom: 0;
+}
+
+ h1 {
+    font-size: 48px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: .4rem;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.layout .primary {
+    width: 66%;
+    float: left;
+    padding-left: 1.4rem;
+
+}
+
+.layout .secondary{
+    width: 32%;
+    float: right;
+    margin-right: 0;
+    font-size: 1.1rem;
+
+}
+
+h2{
+    font-size: 2.4rem;
+}
+.designClasses{
+
+}
+
+.designClasses img {
+    height: 250px;
+    width: 400px;
+    float: left;
+    margin-right: 10px;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.group li {
+    display: inline;
+}
+
+span.title {
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.pixgrid{
+    overflow: hidden;
+    *zoom: 1;
+}
+
+.pixgrid img{
+    height: 100px;
+    width: 30%;
+    max-width: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section.archList img{
+    width:300px;
+    height: 250px;
+    float: left;
+}
+
+section.archList p:first-child{
+    margin-bottom: 20px;
+}
+
+section.archList h3 {
+    text-align: center;
+}
+#bioLink a{
+    text-align: center;
+    margin-left: 30%;
+}
+section.archList span a{
+    text-align: center;
+    text-decoration: none;
+    color: mediumpurple;
+    font-weight: bold;
+}
+
+section.archList p:last-child{
+    padding-left: 10px;
+}
+
+.lb-data{
+    background: #21cc55;
+    color: black;
+}
+.lb-data .lb-details{
+    background: #21cc55;
+    color: black;
+    width: 100%;
+}
+.lb-data .lb-number {
+    color: black;
+    padding-left: 10px;
+}
+.lb-outerContainer{
+    background: #21cc55;
+}
+
+@media (max-width: 690px) {
+    article.featuredDesign, section.layout aside.secondary {
+        display: none;
+    }
+}
