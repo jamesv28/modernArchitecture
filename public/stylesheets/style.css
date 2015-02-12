@@ -196,4 +196,7 @@ section.archList p:last-child{
     article.featuredDesign, section.layout aside.secondary {
         display: none;
     }
+    h1#title {
+        display: none;
+    }
 }
